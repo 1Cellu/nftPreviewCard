@@ -6,7 +6,7 @@
     justify-content: center;
     align-items: center;
     font-family: Outfit;
-    font-size: 18px;
+
 }
 
 #retangle{
@@ -22,15 +22,65 @@
 }
 #title-of-nft{
     color: hsl(0, 0%, 100%);
+    font-size: 18px;
+    font-weight: 600;
 
 }
 #description{
-    font-size: 14px;
+    font-size: 16px;
     color:hsl(215, 51%, 70%)
+}
+#value{
+    margin-right: 90px;
+    color:hsl(178, 100%, 50%)
+
+    
+}
+#elements-inline, #value, #days-left{
+    display: inline;
+    font-size: 16px;
+
+}
+#eth-icon{
+    margin-right: 5px;
+}
+#eth-icon, #clock-icon{
+ vertical-align: text-top;
+}
+#days-left{
+    color:hsl(215, 51%, 70%);
+    margin-bottom: 3px;
+    
+}
+
+#creator-image{
+    width:45px;
+    height: 45px;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 15px;
+    border: solid white 2px
+    
+}
+
+#creator{
+    display: inline;
+    color:hsl(215, 51%, 70%);
+    
+}
+
+#link-creator{
+    color:white;
+    text-decoration:none
+
+}
+#creator-area{
+    font-size: 16px;
+    margin-top: 12.5px;
 }
 
 hr {
-
+    margin-top: 15px;
     border: none;
     height: 1px;
     /* Set the hr color */
