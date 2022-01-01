@@ -1,0 +1,43 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: Outfit;
+    font-size: 18px;
+}
+
+#retangle{
+    width: 280px;
+    height: 490px;
+    background-color: hsl(216, 50%, 16%);
+    overflow: hidden;
+    border-radius: 0.7em;
+    padding: 20px;
+}
+#image-card{
+    width: 100%;
+}
+#title-of-nft{
+    color: hsl(0, 0%, 100%);
+
+}
+#description{
+    font-size: 14px;
+    color:hsl(215, 51%, 70%)
+}
+
+hr {
+
+    border: none;
+    height: 1px;
+    /* Set the hr color */
+    color: hsl(215, 51%, 70%); /* old IE */
+    background-color: hsl(215, 51%, 70%); /* Modern Browsers */
+}
+body{
+    margin: 0;
+    background-color: hsl(217, 54%, 11%);
+}
